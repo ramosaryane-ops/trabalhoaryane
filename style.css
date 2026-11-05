@@ -1,4 +1,26 @@
- header {
+:root{
+--cor-primaria:#003366;
+--cor-segundaria:#ffcc00;
+--cor-perigo:#cc0000;
+--cor-texto:#1a1a1a;
+--cor-fundo:#ffffff;
+--cor-fundo-cartao:#f0f4f8;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
           background-color:#183C63;
           color: #FFFFFF;
           text-align: center;
