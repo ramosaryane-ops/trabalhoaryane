@@ -1,13 +1,38 @@
 :root{
 --cor-primaria:#003366;
 --cor-segundaria:#ffcc00;
---cor-perigo:#cc0000;
---cor-texto:#1a1a1a;
 --cor-fundo:#ffffff;
---cor-fundo-cartao:#f0f4f8;
+--cor-texto:#1a1a1a;
+--cor-contraste:#ffffff;
+--cor-botao:#f0f4f8;
+
+
+--fonte-texto:'Segoe UI', SANS-SERIF;
 
 }
 
+*{
+transition:background-color 0.8s ease;
+}
+.tema-escuro{
+    --cor-primaria:#A6CEFE;
+    --cor-segundaria:#98caff;
+    --cor-fundo:#0f172a;
+    --cor-texto:#ffffff;
+    --cor-contraste:#1e293b;
+    --cor-botao:#151428;
+}
+
+.tema-escuro p {
+    color:var(--cor-texto);
+}
+.tema-escuro header p {
+    color:var(--cor-contraste);
+    font-weight:600;
+}
+.tema-escuro a{
+    color:var(--cor-segundaria);
+}
 
 
 
